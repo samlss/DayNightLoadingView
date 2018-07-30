@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.iigo.library.DayNightLoadingView
+        android:id="@+id/dn_loading"
+        app:background_color="#66000000"
+        app:moon_color="#D0D2DF"
+        app:star_color="#F3EBB8"
+        app:sun_color="#FFF600"
+        app:sunshine_color="#DB261B"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>

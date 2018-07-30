@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DayNightLoadingView">
+        <attr name="background_color" format="color"></attr>
+        <attr name="sun_color" format="color"></attr>
+        <attr name="sunshine_color" format="color"></attr>
+        <attr name="moon_color" format="color"></attr>
+        <attr name="star_color" format="color"></attr>
+    </declare-styleable>
+</resources>
