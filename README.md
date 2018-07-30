@@ -75,7 +75,7 @@ dependencies {
 <br>
 
 由于使用了Animator和AnimaterSet的resume和pause方法，因此api要求为 >= 19，如果你想兼容更低的api，
- 方法有：
+方法有：
  - 不调用该库的resume和pause接口,最低可兼容到api12
  - 你自己修改代码
  - 联系我，等我有时间的时候尽量完善一下 
@@ -142,12 +142,13 @@ Attributes description：
 | star_color | the stars color |
 
 <br>
+
 Due to use of the resume and pause methods of Animator and AnimalSet, the api requirement is >= 19, 
 if you want  to be compatible with lower apis,
-  The methods are:
-  - Do not call the resume and pause method of this library, the minimum compatible with api 12.
-  - Modify the code by yourself.
-  - Contact me, i will try to improve it when I have time.
+the methods are:
+- Do not call the resume and pause method of this library, the minimum compatible with api 12.
+- Modify the code by yourself.
+- Contact me, i will try to improve it when I have time.
 
 [id]: http://example.com/ "Optional Title Here"
 
