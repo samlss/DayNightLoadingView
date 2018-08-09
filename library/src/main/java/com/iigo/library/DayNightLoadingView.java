@@ -345,6 +345,8 @@ public class DayNightLoadingView extends View {
         private Matrix moonMatrix = new Matrix();
         private float currentRotation = 0;
         private int action;
+        private RectF rectFOuter = new RectF();
+        private RectF rectFInner = new RectF();
 
         public MoonAnimatorActuator(final int action) {
             this.action = action;
@@ -401,8 +403,8 @@ public class DayNightLoadingView extends View {
 
             float y = centerY * 2 + sunAndMoonRadius + sunAndMoonStroke + 10 - animatedValue * (centerY + sunAndMoonRadius + sunAndMoonStroke + 10);
 
-            RectF rectFOuter = new RectF(centerX - sunAndMoonRadius, y - sunAndMoonRadius, centerX + sunAndMoonRadius, y + sunAndMoonRadius);
-            RectF rectFInner = new RectF(centerX - sunAndMoonRadius / 3, y - sunAndMoonRadius, centerX + sunAndMoonRadius / 3, y + sunAndMoonRadius);
+            rectFOuter.set(centerX - sunAndMoonRadius, y - sunAndMoonRadius, centerX + sunAndMoonRadius, y + sunAndMoonRadius);
+            rectFInner.set(centerX - sunAndMoonRadius / 3, y - sunAndMoonRadius, centerX + sunAndMoonRadius / 3, y + sunAndMoonRadius);
 
             moonPath.addArc(rectFInner, -90, 180);
             moonPath.addArc(rectFOuter, -90, 180);
