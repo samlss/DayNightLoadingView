@@ -33,7 +33,7 @@ allprojects {
 在app目录下的build.gradle添加依赖使用：
 ```
 dependencies {
-    implementation 'com.github.samlss:DayNightLoadingView:1.0'
+    implementation 'com.github.samlss:DayNightLoadingView:1.1'
 }
 ```
 
@@ -101,7 +101,7 @@ allprojects {
 Add it in your app build.gradle at the end of repositories:
 ```
 dependencies {
-    implementation 'com.github.samlss:DayNightLoadingView:1.0'
+    implementation 'com.github.samlss:DayNightLoadingView:1.1'
 }
 ```
 
